@@ -1,10 +1,10 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/zona-salvaje_dev
-    username: pvaldesoiro
+    username: zona-salvaje
   jpa:
     hibernate.ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+        dialect: org.hibernate.spatial.dialect.postgis.PostgisPG95Dialect
         jdbc.lob.non_contextual_creation: true

@@ -1,0 +1,13 @@
+spring.datasource.url: jdbc:postgresql://localhost:5432/zona-salvaje_test
+
+logging.level:
+  root: WARN
+  org.springframework:
+    core: WARN
+    context: WARN
+    beans: WARN
+    transaction: WARN
+    web: WARN
+    boot: WARN
+    test: WARN
+  org.hibernate: WARN
